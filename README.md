@@ -1,6 +1,8 @@
 # Deep Learning for Coders with fastai and PyTorch: Chapter-by-Chapter Code
 
-Runnable, commented Python scripts for every concept in **_Deep Learning for Coders with fastai and PyTorch: AI Applications Without a PhD_** by Jeremy Howard and Sylvain Gugger (O'Reilly, 2020).
+> **Unofficial companion code.** This repository is not affiliated with or endorsed by the authors, fast.ai or O'Reilly. It contains my own code written while working through the book, and none of the book's text. Please read the book itself: it's the real thing.
+
+Runnable, commented Python scripts for every concept in **_Deep Learning for Coders with fastai and PyTorch: AI Applications Without a PhD_** by Jeremy Howard and Sylvain Gugger (O'Reilly, 2020). The official notebooks are at [github.com/fastai/fastbook](https://github.com/fastai/fastbook).
 
 The code is written for deep learning students, professionals and self-learners:
 - **One concept per file**, numbered in reading order (`01_...py`, `02_...py`, ...). The docstring at the top of each file names the book section it covers and shows the book's code.
@@ -121,3 +123,6 @@ Run everything at once:
 python run_all.py          # or: python run_all.py 4 5   (only Chapters 4 and 5)
 ```
 The whole book (120 scripts) takes about 40 minutes on a recent GPU. Chapters 1-2, 4-7 and 13-16 train image models and are slow on a CPU. Chapters 3, 8-12, 17 and 19 are fine on a CPU.
+
+## License
+The code is released under the [GNU General Public License v3.0](LICENSE), the same license as the code in the book's official [fastbook](https://github.com/fastai/fastbook) notebooks, which many of these scripts follow closely. The book's text and figures are © Jeremy Howard, Sylvain Gugger and O'Reilly Media, and are not included here.
