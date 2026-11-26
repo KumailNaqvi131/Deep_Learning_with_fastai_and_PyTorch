@@ -1,0 +1,5 @@
+# generated datasets and script outputs (re-created automatically)
+data/
+**/outputs/
+__pycache__/
+*.pyc

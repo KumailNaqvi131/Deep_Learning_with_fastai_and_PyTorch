@@ -1,0 +1,13 @@
+# Core: needed by every chapter
+torch>=2.2
+torchvision>=0.17
+numpy
+pandas
+pillow
+
+# Optional: scripts skip these features (with a message) if they are missing
+matplotlib             # plots (loss curves, lr_find, confusion matrices, CAM heat maps, ...)
+scikit-learn           # Ch. 9 decision trees, random forests, gradient boosting
+scipy                  # Ch. 9 clustering redundant columns (a text fallback is printed without it)
+sentencepiece          # Ch. 10 subword tokenization (a from-scratch BPE runs without it)
+sympy                  # Ch. 17 symbolic derivatives (one line)
